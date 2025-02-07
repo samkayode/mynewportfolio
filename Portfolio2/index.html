@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="Home">
+      <div class="header">
+        <h2>Samuel <span>K.</span></h2>
+        <nav>
+          <ul id="sidebar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeicon()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openicon()"></i>
+        </nav>
+      </div>
+      <div class="about__section">
+        <div class="about__text">
+          <h2>Hello I'm <span>Kayode samuel</span></h2>
+          <br />
+          <h3>Fronntend Developer</h3>
+          <p>I craft modern, responsive and user-friendly websites</p>
+          <br />
+          <button class="cv__btn" type="button" onclick="downloadCv()">
+            Download CV
+          </button>
+          <button class="contact__btn" type="button" onclick="contact()">
+            Contact
+          </button>
+          <div class="media">
+            <a href="https://github.com/samkayode"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/kayode-samuel-timileyin-98b568294/"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/Big_S1212">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="about__img">
+          <img class="img1" src="images/image3.jpeg" alt="Kayode samuel" />
+        </div>
+      </div>
+    </div>
+    <section id="About">
+      <h1>About Me</h1>
+      <div class="About-container">
+        <div class="About_image">
+          <img src="images/image2.jpeg" class="Abt__img" alt="Abt__img" />
+        </div>
+        <div class="text-container">
+          <div class="main-container">
+            <div class="edu-container">
+              <i class="fa-solid fa-school"></i>
+              <h3>
+                <stong>Student at Federal university of technology minna</stong>
+              </h3>
+            </div>
+            <div class="exp-container">
+              <h3>
+                <bold
+                  >2years + experience <i class="fa-solid fa-check"></i
+                ></bold>
+              </h3>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              As a dedicated <strong>Frontend Developer</strong>, I specialize
+              in crafting sleek, responsive, and intuitive web experiences. My
+              focus is on writing clean, efficient code that enhances
+              functionality and user engagement. I have experience working with
+              <strong>HTML, CSS, Javascript and React</strong>,ensuring that
+              every project I build is both visually appealing and
+              high-performing. My goal is to bridge technology, turning ideas
+              into interactive digital solutions
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Skills">
+      <h1>Explore My Skills</h1>
+      <div class="skills-container">
+        <div class="box">
+          <div class="advance__container">
+            <div class="box1">
+              <p>Html</p>
+              <i class="fa-brands a fa-html5"></i>
+              <div class="check__btn">
+                <button class="adv--btn" type="button">Check</button>
+              </div>
+            </div>
+            <div class="box2">
+              <p>CSS</p>
+              <i class="fa-brands a fa-css3-alt"></i>
+              <div class="check__btn">
+                <button class="adv--btn" type="button">Check</button>
+              </div>
+            </div>
+          </div>
+          <div class="intermediate__container">
+            <div class="box3">
+              <p>Javascript</p>
+              <i class="fa-brands a fa-js"></i>
+              <div class="check__btn">
+                <button class="int--btn" type="button">Check</button>
+              </div>
+            </div>
+            <div class="box4">
+              <p>React</p>
+              <i class="fa-brands a fa-react"></i>
+              <div class="check__btn">
+                <button class="int--btn" type="button">Check</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Project">
+      <h1>projects</h1>
+      <div class="projects">
+        <div class="age-C">
+          <img
+            src="images/age-calculator.jpeg"
+            alt="age-calculator"
+            class="ageI"
+          />
+          <br />
+          <button
+            type="button"
+            class="project-btn"
+            onclick="location.href= 'https://github.com/samkayode/AGE-CALCULATOR'"
+          >
+            Github
+          </button>
+        </div>
+        <div class="todo-C">
+          <img src="images/to-do list.jpeg" alt="to-do" class="to-doI" />
+          <br />
+          <button
+            type="button"
+            class="project-btn"
+            onclick="location.href= 'https://github.com/samkayode/Todo-app'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+      <div class="extraproject">
+        <button type="button" class="more-btn" onclick="more()">More</button>
+      </div>
+    </section>
+    <section id="Contact">
+      <h1>Contact Me</h1>
+      <div class="contact__con">
+        <div class="left-container">
+          <a href="mailto:kayodesamuel531@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/+2349158928735">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kayode-samuel-timileyin-98b568294/"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <p><i class="fa-duotone fa-solid fa-phone"></i>+234-904-417-5858</p>
+        </div>
+        <div class="right-container">
+          <form>
+            <input type="text" name="Name" placeholder="Name" required />
+            <input type="email" name="Email" placeholder="Email" required />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="Submit" class="sub__btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> Kayode Samuel Timileyin . All rights
+        reserved
+      </p>
+      <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Project">Project</a></li>
+      </nav>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
