@@ -227,8 +227,10 @@ nav .fa-solid {
 .main-container {
   display: flex;
   gap: 15px;
-
   width: 540px;
+}
+.text-container {
+  margin-left: 50px;
 }
 .edu-container,
 .exp-container {
