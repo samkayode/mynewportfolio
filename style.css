@@ -656,6 +656,9 @@ form textarea {
     text-decoration: none;
     transition: 0.5s;
   }
+   .left-container p {
+    margin-top: 14px;
+  }
   .right-container form {
     width: 80%;
     align-items: center;
